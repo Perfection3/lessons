@@ -1,0 +1,98 @@
+@import url(reset.css);
+
+/* -------------------------------------------------------- */
+.img {
+   max-width: 300px;
+}
+/* -------------------------------------------------------- */
+body {
+   color: brown;
+}
+* {
+   color: green;
+}
+div {
+   color: black;
+}
+mark,
+span {
+   color: brown;
+}
+.career-text-next-lvl .blue-text {
+   color: blue;
+}
+li {
+   color: red;
+}
+a {
+   color: black;
+}
+.nav a {
+   color: greenyellow;
+}
+p {
+   color: white;
+}
+div.career {
+   color: silver;
+}
+div p {
+   color: black;
+}
+.title {
+   color: darkgoldenrod;
+}
+h2 {
+   color: red;
+}
+.subtitle.title {
+   color: darkblue;
+}
+.nav > p {
+   color: red;
+}
+.youth-text * {
+   color: salmon;
+}
+.youth-text span {
+   color: wheat;
+}
+.red-span {
+   color: brown;
+}
+.career-text p {
+   color: silver;
+}
+#top {
+   color: orange;
+}
+[target*="_blank"] {
+   color: yellow;
+}
+.private-text p {
+   color: green !important;
+}
+.private-text p {
+   color: blue;
+}
+.private-text-next-lvl ~ p {
+   color: red;
+}
+.private-text > p {
+   color: yellow;
+}
+.private-text mark {
+   color: brown;
+}
+.private-text .private-text-next-lvl + p {
+   color: darkorchid !important;
+}
+.link a {
+   color: brown;
+}
+a.red-link {
+   color: red;
+}
+.red-link ~ a {
+   color: darkmagenta;
+}
