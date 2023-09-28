@@ -1,0 +1,225 @@
+@import url(fonts.css);
+@import url(reset.css);
+/* =========================================================================== */
+
+img {
+   max-width: 500px;
+}
+/* =========================================================================== */
+body {
+   font-family: "Moniqa", sans-serif;
+   font-weight: 300;
+}
+h1 {
+
+}
+a {
+   font-family: "Moniqa", sans-serif;
+   font-weight: 400;
+   text-decoration: underline;
+   color: green;
+}
+p {
+   text-indent: 20px;
+   text-align: justify;
+}
+/* =========================================================================== */
+.general-img {
+   max-width: 200px;
+   display: block;
+   margin: 0 auto;
+}
+.title {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+   text-align: center;
+   letter-spacing: 3px;
+   color: red;
+}
+.subtitle {
+   font-size: 40px;
+   line-height: 1.8;
+   text-shadow: 3px 3px 1px #000;
+   word-spacing: 5px;
+   text-transform: capitalize;
+   white-space: nowrap;
+}
+.main-title {
+   font-size: 50px;
+   line-height: 1.4;
+   text-shadow: 5px 5px 3px #000;
+}
+.general-text {
+   color: gray;
+   word-spacing: 5px;
+
+}
+.general-text mark {
+   font-family: "Meutas", sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: blue;
+}
+.general-text span {
+   font-family: "Inter", sans-serif;
+   text-transform: uppercase;
+   font-weight: 600;
+   color: blue;
+   text-decoration: underline;
+}
+.nav {
+
+}
+.nav-list {
+   text-align: center;
+   font-size: 20px;
+}
+.nav-link a {
+   color: darkred;
+   text-transform: uppercase;
+   text-decoration: overline;
+}
+/* =========================================================================== */
+.history {
+
+}
+.history-body {
+   font-family: "Inter", sans-serif;
+   text-transform: uppercase;
+   font-weight: 300;
+}
+.history-text p {
+   word-spacing: 10px;
+}
+.history-text span {
+   font-family: "Meutas", sans-serif;
+   font-weight: 400;
+   color: darkblue;
+   text-transform: uppercase;
+   text-decoration: line-through;
+}
+.history-more {
+   font-family: "Meutas", sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #6B77E5;
+   display: block;
+   text-align: right;
+}
+.history-text a {
+   text-transform: uppercase;
+   font-weight: 700;
+}
+/* =========================================================================== */
+.race {
+}
+.race-body {
+   color: darkgoldenrod;
+   white-space: nowrap;
+   line-height: 1.5;
+}
+.race-text > p{
+   font-weight: 400;
+   word-spacing: 10px;
+   text-indent: 0;
+   text-transform: lowercase;
+}
+.race-text span {
+   color: brown;
+   text-transform: uppercase;
+   text-decoration: underline;
+}
+/* =========================================================================== */
+.qualification {
+}
+.qualification-body {
+}
+.qualification-text {
+   color: greenyellow;
+   letter-spacing: 2px;
+   font-size: 12px;
+   font-style: italic;
+}
+.qualification-text p {
+   text-align: center;
+}
+/* =========================================================================== */
+.derby {
+}
+.derby-text {
+   font-size: 18px;
+   text-align: left;
+   white-space: nowrap;
+   font-style: oblique;
+}
+/* =========================================================================== */
+.points {
+}
+.points-text {
+   text-transform: uppercase;
+   text-decoration: underline;
+   text-shadow: 1px 1px 1px #000;
+}
+.points-text a {
+   font-family: "Meutas", sans-serif;
+   font-weight: 300;
+   text-decoration: none;
+}
+/* =========================================================================== */
+.maket {
+   font-family: "Inter", sans-serif;
+   color: #7D7D7D;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.46;
+}
+.maket p {
+   text-indent: 0;
+   text-align: justify;
+}
+.consulting {
+}
+.consulting-title {
+   color: #37393F;
+   font-size: 30px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   line-height: 1.27;
+   text-align: left;
+   text-transform: capitalize;
+}
+.consulting-text {
+
+}
+.consulting-subtitle {
+   color: #6B77E5;
+   font-size: 20px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   line-height: 1.27;
+}
+.project {
+}
+.project-title {
+   color: #37393F;
+   font-size: 40px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   line-height: 1.27;
+   text-transform: capitalize;
+}
+.project-text {
+   
+}
+.project-ul-list, .project-ol-list {
+   font-weight: 500;
+}
+.project-ul-item {
+
+}
+.project-ol-item {
+
+}
+
+
