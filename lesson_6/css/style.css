@@ -1,0 +1,213 @@
+@import url(fonts.css);
+@import url(reset.css);
+/* ============================================================================== */
+body {
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+}/* ============================================================================== */
+.header-body {
+   max-width: 1200px;
+   margin: 0 auto 20px;
+}
+.main-title {
+   text-align: center;
+   font-family: "DM Serif Text", serif;
+   color: darkgreen;
+   font-size: 32px;
+   line-height: 1.2;
+   text-transform: uppercase;
+   text-shadow: 2px 2px 1px orange;
+   margin: 0px 0px 15px 0px;
+}
+.nav {
+   max-width: 600px;
+   margin: 0 auto;
+   text-align: center;
+   text-transform: capitalize;
+   text-decoration: underline;
+   font-size: 20px;
+   font-weight: 700;
+   color: green;
+}
+.nav-list {
+}
+.nav-link {
+}
+/* ============================================================================== */
+.title {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+}
+.text {
+   color: #7D7D7D;
+   line-height: 1.46;
+   text-align: justify;
+}
+/* ============================================================================== */
+.maket-1 {
+   max-width: 692px;
+   margin: 0 auto 50px;
+   overflow: hidden;
+}
+.why-us {
+   margin: 0px 0px 40px 0px;
+}
+.why-us-img {
+   width: 100%;
+   margin: 0px 0px 37px 0px;
+}
+.why-us-title {
+   color: #37393F;
+   font-size: 30px;
+   line-height: 1.27;
+   text-transform: capitalize;
+   margin: 0px 0px 3px 0px;
+}
+.why-us-text {
+   margin: 0px 0px 42px 0px;
+}
+.proactively-title {
+   color: #6B77E5;
+   font-size: 20px;
+   line-height: 1.27;
+   margin: 0px 0px 12px 0px;
+}
+.proactively-text {
+
+}
+/* ============================================================================== */
+.benefits {
+   margin: 0px 0px 50px 0px;
+}
+.benefits-img {
+   display: inline-block;
+   max-width: 331px;
+   vertical-align: top;
+   margin: 0px 14px 0px 0px;
+}
+.benefits-img img {
+   width: 100%;
+}
+.benefits-card {
+   display: inline-block;
+   max-width: 331px;
+   padding: 0px 0px 0px 15px;
+}
+.benefits-title {
+   color: #37393F;
+   font-size: 25px;
+   line-height: 1.27;
+   margin: 0px 0px 15px 0px;
+}
+.benefits-subtitle {
+   color: #40DDB6;
+   font-size: 20px;
+   line-height: 1.27;
+   margin: 0px 0px 24px 0px;
+}
+.benefits-list {
+   padding: 0px 0px 0px 35px;
+
+}
+.benefits-text {
+   margin: 0px 0px 30px 0px;
+}
+.benefits-text-last {
+   margin: 0px 0px 0px 0px;
+}
+/* ============================================================================== */
+.maket-2 {
+   max-width: 1200px;
+   margin: 0 auto 30px;
+   overflow: hidden;
+}
+.custom-card {
+   max-width: 563px;
+   padding: 21px 0px 0px 0px;
+   margin: 0px 38px 0px 0px;
+   display: inline-block;
+   vertical-align: top;
+}
+.custom-label {
+   color: #D06B00;
+   font-size: 28px;
+   font-family: Inter;
+   text-transform: uppercase;
+}
+.custom-title {
+   color: #0E333D;
+   font-size: 59px;
+   font-family: DM Serif Text;
+   line-height: 1.47;
+   text-transform: capitalize;
+}
+.custom-text {
+   color: #474747;
+   font-size: 20px;
+   line-height: 1.8;
+}
+.custom-illustration {
+   display: inline-block;
+}
+.custom-illustration-1, .custom-illustration-2 {
+   display: inline-block;
+   max-width: 273px;
+}
+.custom-illustration-1 img, .custom-illustration-2 img {
+   width: 100%;
+}
+.custom-illustration-1 {
+   margin: 0px 22px 0px 0px;
+}
+/* ============================================================================== */
+.other {
+}
+.other-title {
+   text-align: center;
+   color: yellow;
+   font-size: 32px;
+   line-height: 1.2;
+   text-transform: uppercase;
+   text-shadow: 2px 2px 1px darkblue;
+   margin: 0px 0px 30px 0px;
+}
+.other-block-1 {
+   margin: 0 20px 18px 50px;
+   background-color: green;
+   width: 300px;
+   box-sizing: content-box;
+   height: 100px;
+   overflow: auto;
+   padding: 5px;
+   display: inline-block;
+   vertical-align: middle;
+}
+.other-block-2 {
+   background-color: rosybrown;
+   display: inline-block;
+   max-width: 250px;
+   max-height: 100px;
+   vertical-align: middle;
+   overflow: hidden;
+   font-size: 14px;
+   padding: 0px 0px 15px 0px;
+}
+.other-block-3 {
+   min-width: 500px;
+   background-color: blueviolet;
+   overflow: scroll;
+   width: 30%;
+   padding-left: 30px;
+   margin: 30px 0px 0px 0px;
+}
+/* ============================================================================== */
+.to-top {
+   max-width: 150px;
+   font-size: 16px;
+   color: brown;
+   font-weight: bold;
+   text-decoration: underline;
+   text-transform: uppercase;
+   margin: 0 auto;
+}
+/* ============================================================================== */
