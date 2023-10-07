@@ -1,0 +1,363 @@
+@import url(fonts.css);
+@import url(reset.css); 
+/* ========================================================================================== */
+body {
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   color: #7D7D7D;
+}
+header {
+   margin: 0px 0px 50px 0px;
+}
+/* ========================================================================================== */
+.title {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   color: #37393F;
+   line-height: 1.21;
+   text-transform:capitalize;
+}
+.text {
+   line-height: 1.46;
+   text-align: justify;
+}
+.main-title {
+   font-family: "Cormorant Infant", serif;
+   font-weight: 700;
+   font-size: 64px;
+   text-transform: capitalize;
+   max-width: 900px;
+   margin: 0 auto;
+}
+/* ========================================================================================== */
+.licencing {
+   max-width: 1218px;
+   margin: 0 auto 50px;
+}
+.licencing-label {
+   margin: 0 auto;
+   text-align: center;
+}
+.licencing-label-mark {
+   width: 12px;
+   height: 12px;
+   background-color: #40DDB6;
+   margin: 0px 5px 0px 0px;
+   display: inline-block;
+}
+.licencing-label-tex {
+   display: inline-block;
+   color: #37393F;
+   font-weight: 500;
+}
+.licencing-title {
+   font-size: 60px;
+   text-align: center;
+   margin: 0px 0px 70px 0px;
+}
+.licencing-icons {
+   margin: 0px 0px 100px 0px;
+}
+.licencing-icons-title, 
+.licencing-photography-title, 
+.licencing-fonts-title {
+   font-size: 40px;
+}
+.licencing-icons-title {
+   margin: 0px 0px 11px 0px;
+}
+.licencing-icons-text {
+   margin: 0px 0px 32px 0px;
+}
+.licencing-icons-label,
+.licencing-photography-label {
+   font-size: 30px;
+}
+.green-label {
+   color: #40DDB6;
+   font-weight: 400;
+}
+.licencing-photography {
+   margin: 0px 0px 100px 0px;
+}
+.licencing-photography-title {
+   margin: 0px 0px 11px 0px;
+   
+}
+.licencing-photography-text {
+   margin: 0px 0px 24px 0px;
+}
+.licencing-photography-label {
+   margin: 0px 0px 8px 0px;
+}
+.green-text {
+   color: #40DDB6;
+   margin: 0px 0px 24px 0px;
+}
+.licencing-fonts {
+
+}
+.licencing-fonts-title {
+   margin: 0px 0px 11px 0px;
+}
+.licencing-fonts-text {
+   
+}
+span.green-text {
+   font-weight: 500;
+}
+/* ========================================================================================== */
+.project {
+   max-width: 1220px;
+   margin: 0 auto 50px;
+   font-size: 0;
+}
+.project-sidebar {
+   display: inline-block;
+   width: 360px;
+   margin: 0px 30px 0px 0px;
+   font-size: 18px;
+   vertical-align: top;
+}
+.sidebar-title {
+   background-color: #40DDB6;
+   color: #fff;
+   font-weight: 600;
+   font-size: 25px;
+   line-height: 1.27;
+   padding: 24px 0px 24px 34px;
+}
+.sidebar-content {
+   padding: 0px 37px;
+   background-color: #F4F4F4;
+   padding: 37px;
+   
+}
+.sidebar-item {
+   margin: 0px 0px 33px 0px;
+   border-bottom: 1px solid #C5C5C5;
+   padding: 15px 0 18px;
+}
+.sidebar-item-title {
+   margin: 0px 0px 1px 0px;
+   
+}
+.project-content {
+   display: inline-block;
+   max-width: 830px;
+   font-size: 18px;
+}
+.project-title {
+   font-size: 40px;
+   margin: 0px 0px 13px 0px;
+}
+.project-text {
+}
+.project-text p {
+   margin: 0px 0px 35px 0px;
+}
+.project-ul-list {
+   margin: 0px 0px 35px 0px;
+   font-weight: 500
+}
+.project-ul-item {
+   padding: 0px 0px 0px 25px;
+}
+.project-ul-item span {
+   display: inline-block;
+   width: 5px;
+   height: 5px;
+   background-color: #7D7D7D;
+   border-radius: 50%;
+   vertical-align: middle;
+   margin: 0px 8px 0px 0px;
+}
+.project-ol-list {
+   margin: 0px 0px 35px 0px;
+   font-weight: 500
+}
+.project-ol-item {
+   padding: 0px 0px 0px 16px;
+}
+.project-ul-list li,
+.project-ol-list li {
+   margin: 0px 0px 35px 0px;
+}
+li.last-item {
+   margin: 0px 0px 0px 0px;
+}
+/* ========================================================================================== */
+.clothing {
+   color: #807D7E;
+   font-size: 0px;
+   font-family: "Causten", sans-serif;
+   font-weight: 400;
+   line-height: 1.68;
+   letter-spacing: 0.40px;
+   max-width: 1240px;
+   margin: 0 auto 50px;
+}
+.clothing-decor {
+   display: inline-block;
+   width: 6px;
+   height: 28px;
+   background-color: #8A33FD;
+   border-radius: 10px;
+   margin: 0px 15px 0px 0px;
+   vertical-align: top;
+}
+.clothing-content {
+   display: inline-block;
+   max-width: 1218px;
+   font-size: 20px;
+}
+.clothing-subtitle {
+   line-height: 1.68;
+   margin: 0px 0px 25px 0px;
+}
+.clothing-title {
+   font-size: 20px;
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 600;
+   line-height: 1.2;
+   letter-spacing: 0.4px;
+}
+.clothing-main-title {
+   font-size: 28px;
+   margin: 0px 0px 30px 0px;
+   color: #3C4242;
+   letter-spacing: 0.56px;
+}
+.clothing-content p {
+   line-height: 33.50px;
+   letter-spacing: 0.40px;
+   line-height: 1.68;
+   text-align: justify;
+   margin: 0px 0px 20px 0px;
+}
+.clothing-content p span {
+   font-weight: 700;
+}
+.clothing-link {
+
+}
+/* ========================================================================================== */
+.jewels {
+   font-family: "Cormorant Infant", serif;
+   font-weight: 700;
+   color: #606060;
+   max-width: 1103px;
+   margin: 0 auto 80px;
+   font-size: 0;
+}
+.jewels-card {
+   display: inline-block;
+   max-width: 503px;
+   font-size: 30px;
+   vertical-align: top;
+   padding: 70px 0px 0px 0px;
+   margin: 0px 75px 0px 0px;
+}
+.jewels-label {
+   font-size: 20px;
+   color: #D58417;
+   margin: 0px 0px 27px 0px;
+   text-transform: uppercase;
+}
+.jewels-title {
+   color: black;
+   font-size: 64px;
+   margin: 0px 0px 31px 0px;
+   text-transform: capitalize;
+}
+.jewels-text {
+   line-height: 1.4;
+}
+.jewels-img {
+   display: inline-block;
+}
+.jewels-img-1 {
+   display: inline-block;
+   margin: 85px 20px 0px 0px;
+   border-radius: 235px;
+   overflow: hidden;
+   border: 1px #502203 solid;
+   overflow: visible;
+   width: 177px;
+   height: 336px;
+}
+.jewels-img-1 img {
+   border-radius: 235px;
+   margin: 14px 0px 0px -10px;
+
+}
+.jewels-img-2 {
+   display: inline-block;
+   width: 307px;
+   height: 500px;
+   border: 1px #502203 solid;
+   border-radius: 235px;
+   vertical-align: top;
+   /*overflow: visible;*/
+}
+.jewels-img-2 img {
+   border-radius: 235px;
+   margin:19px 0px 0px -11px;
+}
+/* ========================================================================================== */
+.other-title {
+   font-size: 50px;
+   width: 500px;
+   margin: 0px auto 50px;
+}
+.other-block-1 {
+   width: 300px;
+   margin: 0px auto 50px;
+   height: 100px;
+   overflow: hidden;
+   border: 5px dashed green;
+   box-shadow: 10px 6px 10px blue;
+}
+.other-block-2 {
+   width: 200px;
+   height: 200px;
+   background-color: #40DDB6;
+   border-radius: 50%;
+   padding: 35px;
+   margin: 0 auto 50px;
+   box-shadow: 20px 15px 5px #502203;
+   outline: 5px solid #502203;
+}
+.other-block-3 {
+   width: 451px;
+   height: 451px;
+   margin: 0 auto 80px;
+   border-radius: 46% 54% 70% 30% / 53% 50% 50% 47%;
+   border: 5px dotted darkmagenta;
+   background-color: #8A33FD;
+   color: orangered;
+   padding: 100px;
+   opacity: 70%;
+   box-shadow: -15px -20px 5px red;
+}
+.other-img {
+   max-width: 300px;
+   margin: 0 auto;
+   border-left: 5px solid #502203;
+   border-bottom: 10px double #502203;
+   border-right: 5px dashed #502203;
+   border-radius: 235px;
+   box-shadow: inset 0px 0px 20px 5px #502203;
+}
+.other-img img {
+   width: 100%;
+   margin: 15px 0px 0px -15px;
+   border-radius: 235px;
+   overflow: hidden;
+}
+/* ========================================================================================== */
+/* ========================================================================================== */
+/* ========================================================================================== */
+
+
+
