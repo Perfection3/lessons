@@ -1,0 +1,477 @@
+@import url(fonts.css);
+@import url(reset.css);
+/* ================================================================================== */
+body {
+   font-family: "Inter", sans-serif;
+   background-image: url("../img/practice/birds.jpg");
+   background-size: 200px;
+}
+header {
+   margin: 0px 0px 30px 0px;
+}
+main {
+   background-color: #fff;
+   max-width: 1400px;
+   margin: 0 auto;
+}
+/* ================================================================================== */
+.main-title {
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 600;
+   font-size: 45px;
+   text-align: center;
+   max-height: 100px;
+   /*overflow: hidden;*/
+   padding: 20px 10px;
+   color: darkblue;
+   text-shadow: -2px -2px 1px yellow;
+   background: rgb(234,236,9);
+   background: linear-gradient(0deg, rgba(234,236,9,1) 0%, rgba(16,0,233,1) 100%);
+   /*background-image: url("../img/practice/pattern-ukr.jpg");
+   background-size: 100px;
+   background-repeat: repeat-x;*/
+}
+/* ================================================================================== */
+.title {
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+   text-align: center;
+   padding: 20px 10px;
+   text-decoration: underline;
+   color: darkblue;
+   text-transform: uppercase;
+}
+.anthem-text {
+   font-family: "Inter", sans-serif;
+   font-size: 30px;
+   line-height: 1.8;
+   font-style: oblique;
+}
+/* ================================================================================== */
+.practice {
+   font-size: 0;
+   margin: 0px 0px 50px 0px;
+   background: linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(195,186,179,1) 100%);
+}
+.practice-title {
+   background: url("../img/practice/love-ukraine.webp") center / contain no-repeat;
+   padding: 20px 10px 20px 200px;
+}
+
+.anthem-1 {
+   display: inline-block;
+   padding: 50px 10px 20px 280px;
+   text-align: justify;
+   width: 50%;
+   min-height: 400px;
+   color: darkblue;
+   text-shadow: 2px 2px 1px yellow;
+   vertical-align: top;
+   background: url("../img/practice/ghost.jpg") 0 100% / 300px no-repeat,
+   linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(195,186,179,1) 100%); 
+}
+.anthem-1 p {
+   margin: 0px 0px 30px 0px;
+}
+.anthem-2 {
+   display: inline-block;
+   padding: 50px 280px 10px 20px;
+   width: 50%;
+   min-height: 400px;
+   color: darkblue;
+   text-shadow: -2px -2px 1px yellow;
+   background-color: #c3bab1;
+   background-image: url("../img/practice/women.jpg");
+   background-repeat: no-repeat;
+   background-size: auto 100%;
+   background-position: right bottom;
+}
+.anthem-2 p {
+   margin: 0px 0px 30px 0px;
+}
+.anthem-3 {
+   min-height: 400px;
+   text-align: center;
+   color: #f70202;
+   font-size: 50px;
+   padding: 100px 30px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+   background: url("../img/practice/pattern-ukr.jpg") 0 0 / 300px;
+   margin: 0px 0px 30px 0px;
+}
+.anthem-3 p {
+   margin: 0px 0px 30px 0px;
+}
+.block-1 {
+   min-height: 1000px;
+   background: black url("../img/practice/cat.jpeg") 50% 0 / 10% no-repeat fixed;
+}
+.block-2 {
+   min-height: 1000px;
+   background: black url("../img/practice/tryzub.jpg") center / 200px no-repeat fixed;
+}
+.block-3 {
+   min-height: 500px;
+   background: url("../img/practice/revolution.webp") center / contain no-repeat, radial-gradient(circle, rgba(3,2,0,1) 60%, rgba(255,255,255,1) 100%);
+}
+/* ================================================================================== */
+.container {
+   max-width: 1220px;
+   margin: 0 auto;
+}
+.businessplan-title {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 1.21;
+}
+.text {
+   color: #7D7D7D;
+   font-size: 18px;
+   line-height: 1.46;
+}
+.caption {
+   color: #37393F;
+   font-weight: 500;
+   line-height: 1.21;
+   min-height: 22px;
+   font-size: 18px;
+}
+/* ================================================================================== */
+.consalting {
+   /*margin: 0px 0px 150px 0px;*/
+}
+.businessplan {
+   font-size: 0;
+   margin: 0px 0px 100px 0px;
+}
+.businessplan-sidebar {
+   max-width: 478px;
+   display: inline-block;
+   margin: 0px 69px 0px 0px;
+   font-size: 18px;
+   vertical-align: top;
+   padding: 0px 68px 10px 2px;
+   background-color: #F5F5F5;
+   
+}
+.sidebar-img {
+   /*width: 410px;*/
+   height: 446px;
+   background: url("../img/business-plan/1.jpg") 0 0 / cover no-repeat;
+   margin: 0px 0px 22px 0px;
+}
+.sidebar-title {
+font-size: 30px;
+margin: 0px 0px 13px 0px;
+}
+.sidebar-text {
+   margin: 0px 0px 15px 0px;
+}
+.sidebar-link {
+   color: #37393F;
+   font-weight: 600;
+   text-transform: capitalize;
+   text-decoration: underline;
+}
+.businessplan-body {
+   max-width: 673px;
+   display: inline-block;
+   font-size: 18px;
+}
+.businessplan-caption {
+   padding-left: 18px;
+   margin: 0px 0px 16px 0px;
+   background: url("../img/business-plan/icons/1.svg") 0 4px / 12px no-repeat;
+}
+.businessplan-caption-title {
+   font-size: 40px;
+   font-weight: 700;
+   max-width: 414px;
+   margin: 0px 0px 20px 0px;
+}
+.businessplan-text {
+   margin: 0px 0px 43px 0px;
+}
+.businessplan-text p {
+   margin: 0px 0px 15px 0px;
+}
+.businessplan-text p:nth-last-child(2) {
+   margin: 0px 0px 20px 0px;
+}
+.businessplan-text ul li {
+   color: #37393F;
+   font-size: 20px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   line-height: 1.21;
+   margin: 0px 0px 23px 0px;
+   background: url("../img/business-plan/icons/2.svg") 0 0 / contain no-repeat;
+   padding: 0px 0px 0px 35px;
+}
+.businessplan-text ul li:nth-last-child(1) {
+   margin: 0px 0px 0px 0px;
+}
+.businessplan-row {
+   max-width: 613px;
+   font-size: 0px;
+   margin: 0px 0px 37px 0px;
+}
+.businessplan-row-card {
+   max-width: 295px;
+   display: inline-block;
+   border: 1px #E3E3E3 solid;
+   margin: 0px 21px 0px 0px;
+}
+.businessplan-row-card ~ .businessplan-row-card {
+   margin-right: 0px;
+}
+.experience {
+   padding: 31px 32px 32px;
+   background: url("../img/business-plan/icons/3.svg") 32px 31px / 39px 38px no-repeat;
+}
+.experience-title {
+   padding-left: 58px;
+   line-height: 1.46;
+   margin: 0px 0px 3px 0px;
+}
+.experience-text {
+   font-size: 16px;
+   line-height: 1.35;
+   padding-left: 58px;
+}
+.awards {
+   padding: 31px 37px 32px;
+   background: url("../img/business-plan/icons/4.svg") 37px 31px / 39px 38px no-repeat;
+}
+.awards-title {
+   padding-left: 55px;
+   line-height: 1.46;
+   margin: 0px 0px 3px 0px;
+}
+.awards-text {
+   font-size: 16px;
+   line-height: 1.35;
+   padding-left: 55px;
+}
+.businessplan-button {
+   max-width: 184px;
+   background-color: #6B77E5;
+   color: white;
+   font-size: 18px;
+   font-weight: 600;
+   text-transform: capitalize;
+}
+.businessplan-button a {
+   display: block;
+   padding: 21px 27px 22px;
+}
+/* ================================================================================== */
+.projects {
+  margin: 0px 0px 150px 0px;
+}
+.projects-info {
+   text-align: center;
+   max-width: 852px;
+   margin: 0 auto 47px;
+}
+.projects-caption {
+   background: url("../img/business-plan/icons/1.svg") 351px 4px / 12px no-repeat;
+   padding-left: 18px;
+   margin: 0px 0px 14px 0px;
+}
+.projects-title {
+   font-size: 40px;
+   font-weight: 700;
+   margin: 0px 0px 14px 0px;
+}
+.projects-text {
+
+}
+.projects-row1, .projects-row2 {
+   font-size: 0;
+}
+.projects-row1 {
+   margin: 0px 0px 58px 0px;
+}
+.row-item {
+   width: 384px;
+   display: inline-block;
+   margin-right: 34px;
+}
+.item-img {
+   height: 500px;
+   margin: 0px 0px 24px 0px;
+}
+.item-title {
+   margin: 0px 0px 15px 0px;
+}
+.item-text {
+   font-size: 14px;
+   line-height: 1.46;
+   background: url("../img/projects/icons/2.svg") 0 0 / contain no-repeat;
+   padding-left: 27px;
+}
+.img1 {
+   background: url("../img/projects/1.png") 0 0 / cover no-repeat;
+}
+.img2 {
+   background: url("../img/projects/2.png") 0 0 / cover no-repeat;
+}
+.img3 {
+   background: url("../img/projects/3.png") 0 0 / cover no-repeat;
+}
+.projects-row2 {
+}
+.img4 {
+   background: url("../img/projects/4.png") 0 0 / cover no-repeat;
+}
+.img5 {
+   background: url("../img/projects/5.png") 0 0 / cover no-repeat;
+}
+.img6 {
+   background: url("../img/projects/6.png") 0 0 / cover no-repeat;
+}
+.last-item {
+   margin-right: 0px;
+}
+/* ================================================================================== */
+.clothing {
+   color: #807D7E;
+   font-size: 20px;
+   font-family: "Causten", sans-serif;
+}
+.clothing-container {
+   max-width: 1240px;
+   margin: 0 auto 150px;
+}
+.clothing-body {
+   margin: 0px 0px 100px 0px;
+}
+.clothing-title {
+   color: #807D7E;
+   font-size: 20px;
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 600;
+   line-height: 1.68;
+   letter-spacing: 0.40px;
+   padding-left: 16px;
+}
+.colothing-main-title{
+   color: #3C4242;
+   font-size: 28px;
+   line-height: 1.2;
+   letter-spacing: 0.56px;
+   background: url("../img/clothing/1.svg") 0 0 / contain no-repeat;
+   margin: 0px 0px 30px 0px;
+}
+.clothing span {
+   font-weight: 700;
+}
+.clothing p {
+   margin: 0px 0px 20px 0px;
+   padding-left: 16px;
+   line-height: 2.1;
+   letter-spacing: 0.40px;
+}
+
+.clothing-subtitle {
+   margin: 0px 0px 25px 0px;
+}
+.clothing-link {
+   color: #807D7E;
+   font-size: 20px;
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 600;
+   line-height: 1.68;
+   letter-spacing: 0.40px;
+   padding-left: 16px;
+}
+/* ================================================================================== */
+.fashion {
+   font-size: 0;
+   font-family: "Causten", sans-serif;
+   font-weight: 300;
+   color: #fff;
+}
+.fashion-row {
+   
+}
+.fashion-item {
+   width: 50%;
+   display: inline-block;
+   height: 640px;
+   font-size: 20px;
+}
+.left-item {
+   background: url("../img/fashion/1.png") 0 0 / cover no-repeat;
+   vertical-align: top;
+   padding: 183px 74px 20px 74px;
+   border-radius: 15px 0 0 15px;
+}
+.fashion-item-card {
+   max-width: 466px;
+   margin: 0 auto;
+   vertical-align: middle;
+
+}
+.fashion-title {
+   font-size: 34px;
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 800;
+   line-height: 1.47;
+   letter-spacing: 0.21px;
+   margin: 0px 0px 30px 0px;
+}
+.fashion-text p {
+   padding: 0;
+   font-weight: 300;
+   letter-spacing: 1px;
+   line-height: 1.46;
+   margin-bottom: 0px;
+}
+.fashion-text {
+   margin: 0px 0px 50px 0px;
+}
+.fashion-link {
+   background-color: #fff;
+   color: #3C4242;
+   font-size: 18px;
+   font-weight: 600;
+   max-width: 168px;
+   border-radius: 8px;
+}
+.fashion-link a {
+   display: block;
+   padding: 12px 44px;
+}
+.right-item {
+   background: url("../img/fashion/2.png");
+   border-radius: 0px 15px 15px 0px;
+}
+
+/* ================================================================================== */
+/* ================================================================================== */
+/* ================================================================================== */
+footer {
+   min-height: 300px;
+   background: url("../img/practice/pattern--with-flowers.avif") left / 80px repeat-y, url("../img/practice/pattern--with-flowers.avif") right / 80px repeat-y, url("../img/practice/pattern--with-flowers.avif") bottom / 100px repeat-x;
+}
+.footer-link {
+   font-size: 24px;
+   border: 2px solid darkblue;
+   background-color: yellow;
+   max-width: 200px;
+   margin: 0 auto;
+   text-align: center;
+}
+.footer-link a {
+   padding: 10px 20px;
+   display: block;
+}
+/*================================================================================== */
+
