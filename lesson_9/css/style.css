@@ -1,0 +1,682 @@
+@import url(fonts.css);
+@import url(reset.css); 
+/* =================================================================== */
+.practice-container {
+   max-width: 2200px;
+   margin: 0 auto;
+}
+/* =================================================================== */
+.header-title {
+   font-family: "Causten", sans-serif;
+   font-size: 36px;
+   max-width: 600px;
+   margin: 0 auto 10px;
+   padding: 15px;
+   color: darkolivegreen;
+   font-weight: bold;
+   text-align: center;
+}
+.header-title h1,
+.header-title p {
+   display: inline-block;
+}
+.nav {
+   max-width: 1600px;
+   margin: 0 auto 20px;
+   text-align: center;
+   font-family: "Inter", sans-serif;
+   font-size: 20px;
+}
+.nav li {
+   display: inline-block;
+   margin-right: 30px;
+   text-transform: uppercase;
+   background-color: darkolivegreen;
+   color: darkblue;
+   border-radius: 10px;
+   box-shadow: 5px 5px 3px darkblue;
+}
+.nav li:hover {
+   background-color: darkblue;
+   color: darkolivegreen;
+   box-shadow: 5px 5px 3px black;
+}
+.nav li:active {
+   background-color: darkblue;
+   color: darkolivegreen;
+   padding: 3px 0 0 3px;
+   box-shadow: 2px 2px 1px black;
+}
+.nav a {
+   padding: 10px 25px;
+   display: block;
+}
+/* =================================================================== */
+.pracrice {
+   margin: 0px 0px 100px 0px;
+}
+.practice-game {
+   max-width: 1600px;
+   padding: 30px;
+   margin: 0 auto 80px;
+   font-size: 0;
+   background: url("../img/practice/background.jpg") 0 0;
+   min-height: 800px;
+}
+.practice-game:hover .start {
+   visibility: visible;
+   opacity: 1;
+}
+.practice-game h2 {
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 800;
+   font-size: 50px; 
+   text-align: center;
+   color: darkred;
+   text-transform: uppercase;
+   line-height: 1.4;
+   margin: 20px 0;
+}
+.practice-game h2:hover::before, 
+.practice-game h2:hover::after {
+   content: "";
+   background: url("../img/practice/superman.png") 0 0 / contain no-repeat;
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+}
+.way-line {
+   background-color: green;
+}
+.start {
+   width: 7%;
+   height: 100px;
+   background: url("../img/practice/start.png") 0 0 / 100px no-repeat;
+   display: inline-block;
+   vertical-align: bottom;
+   visibility: hidden;
+   opacity: 0;
+   margin: 0px 0px 100px 0px;
+}
+.start:hover::before {
+   content: "";
+   height: 50px;
+   width: 50px;
+   display: inline-block;
+   background: url("../img/practice/arrow.png") 0 center / contain no-repeat;
+   margin: 0 0 10px 70px;
+}
+.start:hover::after {
+   content: "Good Luck!";
+   display: inline-block;
+   font-family: "Causten", sans-serif;
+   font-size: 16px;
+   font-weight: 300;
+   color: darkgreen;
+   text-align: center;
+   margin: 40px 0px 0px 10px;
+}
+.way-1 {
+   width: 90%;
+   height: 50px;
+   opacity: 0;
+   visibility: hidden;
+   display: inline-block;
+   vertical-align: top;
+}
+.start:hover ~ .way-1 {
+   opacity: 0.5;
+   visibility: visible;
+}
+.way-1:hover, 
+.way-2:hover,
+.way-3:hover,
+.way-4:hover,
+.way-5:hover,
+.finish:hover {
+   opacity: 1;
+   visibility: visible;
+}
+.way-1:hover ~ .way-2,
+.way-2:hover ~ .way-3, 
+.way-3:hover ~ .way-4,
+.way-4:hover ~ .way-5 {
+   opacity: 0.1;
+   visibility: visible;
+}
+.way-2 {
+   width: 3%;
+   display: inline-block;
+   height: 200px;
+   visibility: hidden;
+   vertical-align: top;
+}
+.way-3 {
+   width: 100%;
+   visibility: hidden;
+   opacity: 0;
+   height: 30px;
+   text-align: right;
+   
+}
+.way-4 {
+   width: 25px;
+   height: 150px;
+   visibility: hidden;
+   opacity: 0;
+}
+.way-5 {
+   display: inline-block;
+   width: 450px;
+   height: 15px;
+   visibility: hidden;
+   opacity: 0;
+   vertical-align: top;
+}
+.finish {
+   display: inline-block;
+   visibility: hidden;
+   opacity: 0;
+   background: url("../img/practice/cup3.png") 0 0 / contain no-repeat;
+   width: 200px;
+   height: 200px;
+}
+.way-5:hover ~ .finish {
+   visibility: visible;
+}
+.finish::after{
+   content: "Klick me!!!";
+   display: inline-block;
+   font-family: "Causten", sans-serif;
+   font-size: 16px;
+   font-weight: 300;
+   color: darkgoldenrod;
+   text-align: center;
+   margin: 210px 0px 0px 50px;
+}
+.finish:active::after {
+   content: "";
+   width: 200px;
+   height: 200px;
+   display: inline-block;
+   background: url("../img/practice/confetti.jpg") center / contain no-repeat;
+   margin: 0px 0px 100px 210px;
+   vertical-align: top;
+}
+/* =================================================================== */
+.main-practice {
+   font-family: "Poppins", sans-serif;
+   font-size: 18px;
+   line-height: 1.2;
+   text-align: justify;
+   padding: 0 50px;
+}
+.main-practice h2 {
+   font-weight: 700;
+   font-size: 30px;
+   text-align: center;
+   margin: 0px 0px 20px 0px;
+}
+.block-text {
+   padding: 0px 30px;
+   margin: 0px 0px 50px 0px;
+}
+.block-text > *:not(:last-child) {
+   margin: 0px 0px 15px 0px;
+}
+ 
+.block-text span:first-child {
+   font-size: 30px;
+}
+.block-text p:last-of-type {
+   background-color: darkgrey;
+} 
+.block-text p:nth-child(even) {
+   font-size: 12px;
+}
+.block-text :nth-child(9) {
+   font-size: 24px;
+}
+.block-text span:nth-child(odd) {
+   text-transform: uppercase;
+   background-color: rosybrown;
+}
+.block-text > *:not(:nth-child(odd)) {
+   font-style: italic;
+}
+.block-text p:first-of-type {
+   background-color: green;
+}
+.block-text span:first-child {
+   font-weight: bold;
+   text-decoration: line-through;
+} 
+.block-text p:nth-child(6),
+.block-text span:nth-child(7) {
+   background-color: red;
+}
+.block-text span:last-child {
+   background-color: blue;
+}
+.block-text :nth-child(5){
+   background-color: yellow;
+}
+.block-text p:nth-child(4n+1) {
+   color: darkblue;
+}
+.block-text span:nth-child(2n+1) {
+   text-decoration: underline;
+}
+.block-text p:nth-child(3),
+.block-text p:nth-child(7),
+.block-text p:nth-child(8) {
+   border: 1px dashed red;
+}
+.block-text p:not(:first-of-type) {
+   color: brown;
+}
+/* ------------------------------------------------------------ */
+.block-list {
+   text-align: center;
+}
+.block-list ul {
+   margin: 0px 0px 50px 0px;
+}
+.block-list ul li {
+   display: inline-block;
+   border: 1px solid black;
+}
+.block-list li:not(:last-of-type) {
+   margin: 0px 90px 0px 0px;
+}
+.block-list ul a {
+   display: block;
+   width: 100%;
+   padding: 10px 30px;
+}
+.block-list ul a:hover {
+   background-color: gray;
+}
+.box {
+   width: 300px;
+   height: 100px;
+   display: inline-block;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   text-align: center;
+   margin: 0px 0px 50px 0px;
+}
+#black-box {
+   background-color: black;
+   color: white;
+   font-size: 36px;
+   vertical-align: top;
+}
+#blue-box {
+   background-color: blue;
+   color: grey;
+   font-size: 36px;
+   vertical-align: top;
+}
+#green-box {
+   background-color: green;
+   color: brown;
+   font-size: 36px;
+}
+#red-box {
+   background-color: red;
+   font-size: 36px;
+}
+#black-box,
+#blue-box,
+#green-box,
+#red-box {
+   opacity: 0;
+   visibility: hidden;
+}
+#black-box:target,
+#blue-box:target,
+#green-box:target,
+#red-box:target {
+   opacity: 1;
+   visibility: visible;
+}
+.block-list ol li {
+   display: inline-block;
+   padding: 10px 20px;
+   border: 0;
+}
+.block-list ol a {
+   display: block;
+   padding: 10px 20px;
+   color: green;
+}
+.block-list ol a:hover {
+   text-decoration: underline;
+   text-transform: uppercase;
+}
+.block-list ol a:active {
+   font-weight: bold;
+}
+.block-list ol a:focus {
+   border: 3px dashed red;
+   border-radius: 30px;
+}
+.block-list ol a:visited {
+   color: darkmagenta;
+}
+/* =================================================================== */
+.maket-practice {
+   color: #7D7D7D;
+   font-size: 18px;
+   font-family: "Inter", sans-serif;
+   line-height: 1.45;
+}
+.maket-practice-container {
+   max-width: 1220px;
+   margin: 0 auto;
+}
+.maket-practice-container .consalting,
+.maket-practice-container .business-plan {
+   max-width: 693px;
+   margin: 0 auto 100px;
+}
+/*------------------------------------------------------------------- */
+.consalting {
+
+}
+.title {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   line-height: 1.27;
+}
+.consalting h2 {
+   color: #37393F;
+   font-size: 30px;
+   margin: 0px 0px 15px 0px;
+   /* Відступ враховуючи величезний лайн хайт в заголовках по макету*/
+}
+.consalting h3 {
+   color: #37393F;
+   font-size: 25px;
+   margin: 0px 0px 15px 0px;
+}
+.consalting h4 {
+   color: #6B77E5;
+   font-size: 20px;
+   line-height: 1.27;
+   margin-bottom: 12px;
+}
+.benefits h4 {
+   color: #40DDB6;
+   margin-bottom: 21px;
+}
+.consalting p {
+   margin-bottom: 40px;
+}
+.consalting p:first-child {
+   margin-bottom: 42px;
+}
+.consalting p:last-child {
+   margin-bottom: 0;
+}
+
+.benefits {
+   font-size: 0;
+   margin-bottom: 50px;
+}
+.benefits > *:not(:last-child) {
+   margin-right: 29px;
+}
+.benefits-img {
+   display: inline-block;
+   width: 332px;
+   height: 261px;
+   background: url("../img/consalting/1.jpg") 0 0 / cover no-repeat;
+   vertical-align: top;
+}
+.benefits-card {
+   display: inline-block;
+   font-size: 18px;
+   max-width: 332px;
+}
+.benefits-card li {
+   margin-bottom: 30px;
+}
+.benefits-card li:last-child {
+   margin-bottom: 0;
+} 
+.benefits li::before,
+.vision h3::before,
+.mission h3::before {
+   content: "";
+   display: inline-block;
+   width: 27px;
+   height: 27px;
+   background: url("../img/icons/list.png") 0 0 / contain no-repeat;
+   vertical-align: top;
+   margin-right: 8px;
+}
+/* =================================================================== */
+.subtitle {
+   color: #37393F;
+   font-weight: 500;
+   line-height: 1.22;
+}
+.subtitle::before {
+   content: "";
+   display: inline-block;
+   width: 12px;
+   height: 12px;
+   background-color: #40DDB6;
+   margin-right: 6px;
+}
+.business-plan {
+   
+}
+.business-plan h3 {
+   margin: 0px 0px 12px 0px;
+}
+.business-plan h3:first-child {
+   margin-bottom: 16px;
+}
+.business-plan h2 {
+   color: #37393F;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.21;
+   margin-bottom: 10px;
+}
+.business-plan h2:first-of-type {
+   max-width: 414px;
+}
+.business-plan > p {
+   line-height: 1.46;
+   margin: 0px 0px 16px 0px;
+}
+.business-plan > p:last-of-type {
+   margin: 0px 0px 48px 0px;
+}
+
+.vision, 
+.mission {
+   padding: 38px 28px 41px;
+   border: 1px solid #E3E3E3;
+}
+.vision h3,
+.mission h3 {
+   color: #37393F;
+   font-size: 20px;
+}
+.vision h3::before,
+.mission h3::before {
+   margin-right: 19px;
+}
+.vision p,
+.mission p {
+   padding-left: 46px;
+}
+.vision {
+   margin: 0px 0px 31px 0px;
+}
+.mission {
+   margin: 0px 0px 48px 0px;
+}
+.mission-btn {
+   font-weight: 600;
+   text-transform: capitalize;
+   max-width: 200px;
+}
+.mission-btn a {
+   display: block;
+   padding: 21px 35px 22px;
+   background-color: #6B77E5;
+   color: white;
+}
+.mission-btn a:hover {
+   background-color: #afb5e5;
+   color: #6B77E5;
+}
+/* =================================================================== */
+.work {
+   text-align: center;
+   margin: 0px 0px 100px 0px;
+}
+
+.work .subtitle {
+   margin: 0px 0px 16px 0px;
+}
+.work > .title {
+   color: #37393F;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.21;
+   margin: 0px 0px 77px 0px;
+
+}
+.work-row {
+   font-size: 0;
+}
+.work-row-item {
+   font-size: 18px;
+   display: inline-block;
+   width: 386px;
+   background-color: #F4F4F4;
+   padding: 0 43px 58px;
+}
+.work-row-item:not(:last-child) {
+   margin-right: 31px;
+}
+.work-img {
+   margin: -36px 0 22px;
+}
+.item-card {
+   max-width: 300px;
+   margin: 0 auto;
+}
+.item-card h3 {
+   color: #37393F;
+   font-size: 25px;
+   margin: 0px 0px 16px 0px;
+}
+.item-card p {
+   text-align: center;
+   margin-bottom: 37px;
+}
+.item-card a {
+   color: #6B77E5;
+   font-weight: 600;
+   text-transform: capitalize;
+   margin-bottom: 16px;
+}
+.item-card a:hover {
+   text-decoration: underline;
+}
+.item-card > :last-child {
+   margin-bottom: 0;
+}
+/* =================================================================== */
+.jewels {
+   max-width: 1214px;
+   margin: 0 auto;
+   color: black;
+   font-size: 0px;
+   font-family: "Cormorant Infant", serif;
+   font-weight: 700;
+}
+.jewels h2 {
+   color: black;
+   max-width: 480px;
+   display: inline-block;
+   font-size: 60px;
+   line-height: 1.15;
+}
+.jewels h2::after {
+   content: "";
+   height: 3px;
+   width: 304px;
+   background-color:#78473B;
+   display: block;
+   margin-top: 13px;
+}
+.card-1 {
+   display: inline-block;
+   width: 344px;
+   vertical-align: middle;
+   margin-right: 45px;
+   font-size: 24px;
+}
+.card-1-img,
+.card-2-img {
+   width: 334px;
+   height: 381px;
+   border: 1px solid black;
+   margin: 0px 0px 34px 0px;
+}
+.card-1-img img, 
+.card-2-img img {
+   margin: 9px 0px 0px 10px;
+}
+.card-1 h5,
+.card-1 p,
+.card-2 h5,
+.card-2 p {
+   line-height: 1.4;
+   margin: 0px 0px 4px 0px;
+}
+.card-1 > *:last-child,
+.card-2 > *:last-child {
+   margin-bottom: 0;
+}
+.card-2 {
+   display: inline-block;
+   width: 344px;
+   font-size: 24px;
+   vertical-align: top;
+}
+.card-2 h3 {
+   font-size: 46px;
+   line-height: 1.13;
+   margin: 0px 0px 31px 0px;
+}
+/* =================================================================== */
+footer {
+   min-height: 50px;
+   background-color: darkgray;
+   text-align: center;
+}
+footer p {
+   font-family: "Inter", sans-serif;
+   font-size: 20px;
+   line-height: 1.2;
+   font-weight: bold;
+   padding: 10px 0;
+}
+footer p::after {
+   content: "\00A9";
+   display: inline-block;
+   margin-left: 5px;
+}
+/* =================================================================== */
+
+/* В стилях обнулення вирішив поки не додавати для псевдоелементів display: inline-block, поки вирішив писати у коді.Додам в подальшому якщо відчую необхідність.*/
