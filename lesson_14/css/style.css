@@ -1,0 +1,215 @@
+s
+.wrapper {
+   min-height: 100%;
+   overflow: clip;
+}
+/* =================================================================== */
+body {
+   font-family: "Inter", sans-serif;
+   background: hsl(212, 66%, 75%);
+}
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.header {
+   width: 100%;
+   min-height: 50px;
+   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+   padding: 20px;
+   text-align: center;
+   margin: 0px 0px 30px 0px;
+}
+.header h1 {
+   font-size: 26px;
+   text-align: center;
+   margin: 0px 0px 20px 0px;
+   font-weight: bold;
+   text-shadow: 2px 2px 3px #1c4ddfc8;
+}
+.nav {
+   max-width: 600px;
+   margin: 0 auto;
+}
+.nav__item {
+   display: inline-block;
+}
+.nav__link {
+   display: block;
+   padding: 20px;
+   color: #1c4ddfc8;
+   border: 3px solid #1c4ddfc8;
+   background-color: #eeaeca;
+   border-radius: 20px;
+   text-transform: uppercase;
+   font-weight: 600;
+}
+.nav__link:hover {
+   color: #eeaeca;
+   background-color: #1c4ddfc8;
+}
+.nav__item:not(:last-child) {
+   margin-right: 100px;
+}
+/* =================================================================== */
+.title {
+   font-size: 24px;
+   font-weight: bold;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   text-align: center;
+   color: #1c4ddfc8;
+   text-shadow: 2px 2px 1px #eeaeca;
+   margin-bottom: 25px;
+}
+.block {
+   width: 200px;
+   height: 200px;
+   border-radius: 10px;
+   background-color: #eeaeca;
+   padding: 20px 10px;
+   color: #1c4ddfc8;
+   text-align: center;
+}
+.block h3 {
+   font-size: 18px;
+   font-weight: bold;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   text-align: center;
+   margin: 0px 0px 30px 0px;
+}
+.block p {
+   font-style: italic;
+}
+.block:not(:last-child) {
+   margin-bottom: 15px;
+}
+.transition,
+.anomation {
+   margin: 0px 0px 30px 0px;
+}
+
+.transition-duration {
+   transition-duration: 2s;
+}
+.transition-duration:hover,
+.transition-property:hover,
+.transition-delay:hover,
+.transition-timing-function:hover {
+   background-color: rgb(46, 54, 214);
+   color: #eeaeca;
+   width: 600px;
+   height: 250px;
+}
+.transition-property {
+   transition-duration: 2s, 1s, 1.5s, 0s, 0.5s;
+   transition-property: width, heigh, background-color, color, border-radius;
+}
+.transition-delay {
+   transition: all 0.5s;
+   transition-delay: 2s;
+}
+.transition-timing-function {
+   transition-duration: 2s;
+   transition-property: all;
+   transition-delay: 0.5s;
+   transition-timing-function: linear;
+}
+.transition-univ {
+
+}
+.transition-univ:hover .transition-univ__item {
+   background-color: rgb(46, 54, 214);
+   color: #eeaeca;
+   width: 600px;
+   height: 250px;
+   border-radius: 50px;
+   transform: scale(0.8) rotate(360deg);
+}
+.transition-univ__item {
+   transition: all 2s linear 0.5s;
+}
+/* =================================================================== */
+
+.animation-duration {
+   animation-name: rotate;
+   animation-duration: 2s;
+}
+@keyframes rotate {
+   0% {
+      transform: rotate(90deg);
+   }
+   50%{
+      transform: rotate(-120deg);
+   }
+   100%{
+      transform: rotate(90deg);
+   }
+}
+.animation-timing-function {
+   animation-name: rotate;
+   animation-duration: 1s;
+   animation-timing-function: linear;
+}
+.animation-iteration-count {
+   animation-name: scale;
+   animation-duration: 6s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+}
+@keyframes scale{
+   0% {
+      transform: scale(1);
+   }
+   50%{
+      transform: scale(-1);
+   }
+   100%{
+      transform: scale(1);
+   }
+}
+.animation-play-state {
+   animation-name: rotate;
+   animation-duration: 6s;
+   animation-timing-function: ease-out;
+   animation-iteration-count: infinite;
+}
+.animation-play-state:hover {
+   animation-play-state: paused;
+}
+.animation-delay, 
+.animation-fill-mode,
+.animation-univ {
+   width: 100%;
+}
+.animation-delay__item {
+   animation-name: translate;
+   animation-duration: 6s;
+   animation-timing-function: linear;
+   animation-delay: 3s;
+}
+@keyframes translate{
+   0% {
+      transform: translateX(0);
+   }
+   100%{
+      transform: translateX(900px);
+   }
+}
+.animation-fill-mode__item {
+   animation-name: translate;
+   animation-duration: 6s;
+   animation-timing-function: ease-in;
+   animation-fill-mode: forwards;
+}
+.animation-univ__item {
+   animation: scale 2s linear 2,
+              rotate 1s ease-in 3,
+              translate 3s 5s forwards;
+}
+
+/* =================================================================== */
+.footer {
+   text-align: center;
+}
