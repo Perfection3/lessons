@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+   <title>Lesson_16 Home-work</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <h1 class="main-title">Lesson_16 Home-work</h1>
+            <nav class="main-menu">
+               <ul class="main-menu__list">
+                  <li class="main-menu__item">
+                     <a href="#call-back" class="main-menu__link">Call Back</a>
+                  </li>
+                  <li class="main-menu__item">
+                     <a href="#info" class="main-menu__link">My Info</a>
+                  </li>
+                  <li class="main-menu__item">
+                     <a href="#check" class="main-menu__link">Check Out</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <main class="page">
+         <div class="page__container">
+            <div id="call-back" class="call-back">
+               <div class="call-back__text">
+                  <div class="call-back__caption caption">
+                     Contact Us
+                  </div>
+                  <h2 class="call-back__title">Request A Call Back !</h2>
+               </div>
+               <form action="#" class="call-back__form form-call-back">
+                  <div class="form-call-back__body">
+                     <div class="form-call-back__input input-cb">
+                        <input type="text" class="input-cb__input" name="name" placeholder="Your Name">
+                        <input type="email" class="input-cb__input" required name="email" placeholder="Email Address">
+                        <input type="tel" class="input-cb__input" name="phone" placeholder="Phone Number">
+                        <input type="text" class="input-cb__input" name="subject" placeholder="Subject">
+                     </div>
+                     <textarea class="form-call-back__textarea" name="message" id="message" placeholder="Message..." minlength="3"></textarea>
+                  </div>
+                  <button type="submit" class="form-call-back__button">Submit</button>
+               </form>
+            </div>
+            <div class="info">
+               <div class="info__nav nav-sidebar">
+                  <div class="nav-sidebar__text">
+                     <h2 class="nav-sidebar__title title title--decor">Hello Jhanvi</h2>
+                     <div class="nav-sidebar__article">
+                        <p>Welcome to your Account</p>
+                     </div>
+                  </div>
+                  <div class="nav-sidebar__menu">
+                     <ul class="nav-sidebar__list">
+                        <li class="nav-sidebar__item">
+                           <a href="#" class="nav-sidebar__link">
+                              <img src="img/icon/1.svg" alt="icon">
+                              <p>My orders</p>
+                           </a>
+                        </li>
+                        <li class="nav-sidebar__item">
+                           <a href="#" class="nav-sidebar__link">
+                              <img src="img/icon/2.svg" alt="icon">
+                              <p>Wishlist</p>
+                           </a>
+                        </li>
+                        <li class="nav-sidebar__item">
+                           <a href="#" class="nav-sidebar__link nav-sidebar__link--active">
+                              <img src="img/icon/3.svg" alt="icon">
+                              <p>My info</p>
+                           </a>
+                        </li>
+                        <li class="nav-sidebar__item">
+                           <a href="#" class="nav-sidebar__link">
+                              <img src="img/icon/4.svg" alt="icon">
+                              <p>Sign out </p>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="info__page page-info" id="info">
+                  <h2 class="page-info__title title">My Info</h2>
+                  <h4 class="page-info__subtitle subtitle">Add Address</h4>
+                  <form action="#" class="page-info__form form-page-info" method="POST">
+                     <div class="form-page-info__input input-page-info">
+                        <div class="input-page-info__item">
+                           <input type="text" class="input-page-info__input" id="input-page-info__first-name" name="first-name" placeholder="First Name" required>
+                           <label for="input-page-info__first-name" class="label">First Name*</label>
+                        </div>
+                        <div class="input-page-info__item">
+                           <input type="text" class="input-page-info__input" id="input-page-info__last-name" name="last-name" placeholder="Last Name" required>
+                           <label for="input-page-info__last-name" class="label">Last Name*</label>
+                        </div>
+                        <div class="input-page-info__item">
+                           <input type="text" class="input-page-info__input" id="input-page-info__country" name="country" placeholder="Country / Region" required>
+                           <label for="input-page-info__country" class="label">Country / Region*</label>
+                        </div>
+                        <div class="input-page-info__item">
+                           <input type="text" class="input-page-info__input" id="input-page-info__company" name="company" placeholder="Company (optional)">
+                           <label for="input-page-info__company" class="label">Company Name</label>
+                        </div>
+                        <div class="input-page-info__item">
+                           <input type="text" class="input-page-info__input" id="input-page-info__address" name="address" placeholder="House number and street name" required>
+                           <label for="input-page-info__address" class="label">Street Address*</label>
+                        </div>
+                        <div class="input-page-info__item">
+                           <input type="text" class="input-page-info__input" id="input-page-info__apartment" name="apartment" placeholder="apartment, suite, unit, etc. (optional)">
+                           <label for="input-page-info__apartment" class="label">Apt, suite, unit</label>
+                        </div>
+                        <div class="input-page-info__item">
+                           <input type="text" class="input-page-info__input" id="input-page-info__city" name="address" placeholder="House number and street name" required>
+                           <label for="input-page-info__city" class="label">City*</label>
+                        </div>
+                        <div class="input-page-info__item">
+                           <select class="input-page-info__input state-list input-page-info__state" name="state" id="input-page-info__state" required >
+                              <option class="state-list__item" disabled selected value>State</option>
+                              <option class="state-list__item" value="01">Arizona</option>
+                              <option class="state-list__item" value="02">Texas</option>
+                              <option class="state-list__item" value="03">Nebrasca</option>
+                              <option class="state-list__item" value="04">Other</option>
+                           </select>
+                           <label for="input-page-info__state" class="label">State*</label>
+                        </div>
+                        <div class="input-page-info__item">
+                           <input type="tel" class="input-page-info__input" id="input-page-info__phone" name="phone" placeholder="Phone" required>
+                           <label for="input-page-info__phone" class="label">Phone*</label>
+                        </div>
+                        <div class="input-page-info__item">
+                           <input type="text" class="input-page-info__input" id="input-page-info__post" name="post" placeholder="Postal Code" required>
+                           <label for="input-page-info__post" class="label">Postal Code*</label>
+                           <!-- Для України доречно використовувати тип інпуту "number", але у світі багато індексів з літерами -->
+                        </div>
+                     </div>
+                     <div class="form-page-info__textarea textarea-page-info">
+                        <textarea name="instruction" id="instruction" class="textarea-page-info__textarea" placeholder="Delivery Instruction" minlength="3"></textarea>
+                        <label for="instruction" class="label">Delivery Instruction </label>
+                     </div>
+                     <div class="form-page-info__activities">
+                        <div class="form-page-info__checkbox checkbox-info">
+                           <div class="checkbox-info__item">
+                              <input type="checkbox" class="checkbox-info__shipping" id="checkbox-info__shipping" required name="shipping-adress">
+                              <label for="checkbox-info__shipping" class="label label--check">Set as default shipping address</label>
+                           </div>
+                           <div class="checkbox-info__item">
+                              <input type="checkbox" class="checkbox-info__billing" id="checkbox-info__billing" required name="billing-adress">
+                              <label for="checkbox-info__billing" class="label label--check">Set as default billing address</label>
+                           </div>
+                        </div>
+                        <div class="form-page-info__buttons">
+                           <button type="submit" class="form-page-info__submit button">Save</button>
+                           <button type="reset" class="form-page-info__reset button button-wt">Cancel</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+            <div class="check-out" id="check">
+               <div class="check-out__text">
+                  <h2 class="check-out__title title title--decor">Check Out</h2>
+                  <h4 class="check-out__subtitle subtitle">Billing Details</h4>
+               </div>
+               <form action="#" method="POST" class="check-out__billing billing-check-out">
+                  <div class="billing-check-out__input input-billing">
+                     <div class="input-billing__item">
+                        <input type="text" class="input-billing__input" id="input-billing__first-name" name="first-name" placeholder="First Name" required>
+                        <label for="input-billing__first-name" class="label">First Name*</label>
+                     </div>
+                     <div class="input-billing__item">
+                        <input type="text" class="input-billing__input" id="input-billing__last-name" name="last-name" placeholder="Last Name" required>
+                        <label for="input-billing__last-name" class="label">Last Name*</label>
+                     </div>
+                     <div class="input-billing__item">
+                        <input type="text" class="input-billing__input" id="input-billing__country" name="country" placeholder="Country / Region" required>
+                        <label for="input-billing__country" class="label">Country / Region*</label>
+                     </div>
+                     <div class="input-billing__item">
+                        <input type="text" class="input-billing__input" id="input-billing__company" name="company" placeholder="Company (optional)">
+                        <label for="input-billing__company" class="label">Company Name</label>
+                     </div>
+                     <div class="input-billing__item">
+                        <input type="text" class="input-billing__input" id="input-billing__address" name="address" placeholder="House number and street name" required>
+                        <label for="input-billing__address" class="label">Street Address*</label>
+                     </div>
+                     <div class="input-billing__item">
+                        <input type="text" class="input-billing__input" id="input-billing__apartment" name="apartment" placeholder="apartment, suite, unit, etc. (optional)">
+                        <label for="input-billing__apartment" class="label">Apt, suite, unit</label>
+                        <!-- Можна використовувати тип інпуту "number", але багато номерів будівель містять літери -->
+                     </div>
+                     <div class="input-billing__item input-billing__item--small">
+                        <input type="text" class="input-billing__input" id="input-billing__city" name="address" placeholder="House number and street name" required>
+                        <label for="input-billing__city" class="label">City*</label>
+                     </div>
+                     <div class="input-billing__item input-billing__item--small">
+                        <select class=" input-billing__input state-list input-billing__state" name="state" id="input-billing__state" required >
+                           <option class="state-list__item" disabled selected value>State</option>
+                           <option class="state-list__item" value="01">Arizona</option>
+                           <option class="state-list__item" value="02">Texas</option>
+                           <option class="state-list__item" value="03">Nebrasca</option>
+                           <option class="state-list__item" value="04">Other</option>
+                        </select>
+                        <label for="input-billing__state" class="label">State*</label>
+                     </div>
+                     <div class="input-billing__item input-billing__item--small">
+                        <input type="text" class="input-billing__input" id="input-billing__post" name="post" placeholder="Postal Code" required>
+                        <label for="input-billing__post" class="label">Postal Code*</label>
+                        <!-- Для України доречно використовувати тип інпуту "number", але у світі багато індексів з літерами -->
+                     </div>
+                     <div class="input-billing__item">
+                        <input type="tel" class="input-billing__input" id="input-billing__phone" name="phone" placeholder="Phone" required>
+                        <label for="input-billing__phone" class="label">Phone*</label>
+                     </div>
+                  </div>
+                  <div class="billing-check-out__activities">
+                     <button type="submit" class="billing-check-out__button button">Continue to delivery</button>
+                     <div class="billing-check-out__checkbox checkbox-save">
+                        <input type="checkbox" class="checkbox-save__checkbox" id="checkbox-save__checkbox" required name="checkbox-save">
+                        <label for="checkbox-save__checkbox" class="label label--check label--sm">Save my information for a faster checkout</label>
+                     </div>
+                  </div>
+               </form>
+               <form action="#" class="check-out__delivery" method="POST">
+                  <div class="check-out__shipping-adr shipping-adr">
+                     <h4 class="shipping-adr__title subtitle">Shipping Address</h4>
+                     <p class="shipping-adr__info article">Select the address that matches your card or payment method.</p>
+                     <div class="shipping-adr__form-adress">
+                        <div class="shipping-adr__adress">
+                           <input type="radio" class="shipping-adr__radio" id="shipping-adr__radio-1" checked required name="shipping-adr">
+                           <label for="shipping-adr__radio-1" class="label label--rd">Same as Billing address</label>
+                        </div>
+                        <div class="shipping-adr__adress">
+                           <input type="radio" class="shipping-adr__radio" id="shipping-adr__radio-2" required name="shipping-adr">
+                           <label for="shipping-adr__radio-2" class="label label--rd">Use a different shipping address</label>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="check-out__shipping-mt shipping-mt">
+                     <h4 class="shipping-mt__title subtitle">Shipping Method</h4>
+                     <div class="shipping-mt__body">
+                        <div class="shipping-mt__item">
+                           <h4 class="shipping-mt__subtitle">Arrives by Monday, June 7</h4>
+                        </div>
+                        <div class="shipping-mt__item item-shipping">
+                           <div class="shipping-mt__text">
+                              <h4 class="shipping-mt__subtitle">Delivery Charges</h4>
+                              <p class="article">All transactions are secure and encrypted.</p>
+                           </div>
+                           <div class="shipping-mt__price">$5.00</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="check-out__payment payment-mt">
+                     <div class="payment-mt__text">
+                        <h4 class="payment-mt__title subtitle">Payment Method</h4>
+                        <p class="payment-mt__info article">All transactions are secure and encrypted.</p>
+                     </div>
+                     <div class="payment-mt__form-paymant">
+                        <div class="payment-mt__item">
+                           <input type="radio" class="payment-mt__radio" id="payment-mt__radio-1" checked required name="payment-mt">
+                              <div class="label label--rd">
+                                 <label for="payment-mt__radio-1" class="label-box">
+                                    <span class="label__subtitle">Credit Card</span>
+                                    <span class="label__article">We accept all major credit cards.</span>
+                                 </label>
+                              </div>
+                           <div class="payment-mt__box box-payment">
+                              <div class="box-payment__row">
+                                 <div class="box-payment__item">
+                                    <a href="#" class="box-payment__link">
+                                       <img src="img/icon/09.svg" alt="google-pay" class="box-payment__img">
+                                    </a>
+                                 </div>
+                                 <div class="box-payment__item">
+                                    <a href="#" class="box-payment__link">
+                                       <img src="img/icon/10.svg" alt="visa" class="box-payment__img">
+                                    </a>
+                                 </div>
+                                 <div class="box-payment__item">
+                                    <a href="#" class="box-payment__link">
+                                       <img src="img/icon/11.svg" alt="pay-pal" class="box-payment__img">
+                                    </a>
+                                 </div>
+                                 <div class="box-payment__item">
+                                    <a href="#" class="box-payment__link">
+                                       <img src="img/icon/12.svg" alt="pay-pass" class="box-payment__img">
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="box-payment__body body-paymant">
+                                 <input type="number" class="body-paymant__input" autocomplete="off" placeholder="Card number" name="card-number">
+                                 <input type="text" class="body-paymant__input" autocomplete="off" placeholder="Name of card" name="card-name">
+                                 <input type="number" class="body-paymant__input" autocomplete="off" placeholder="Expiration date (MM/YY)" name="card-date">
+                                 <div class="body-paymant__password password">
+                                    <input type="password" class="body-paymant__input " id="password" autocomplete="off" placeholder="Security Code" name="card-security-code">
+                                    <label for="password" class="password__label">
+                                       <a href="#" class="password__link">
+                                          <img src="img/icon/13.svg" alt="eye">
+                                       </a>
+                                    </label>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="payment-mt__item">
+                           <input type="radio" class="payment-mt__radio" id="payment-mt__radio-2" required name="payment-mt">
+                           <div class="label label--rd">
+                              <label for="payment-mt__radio-2" class="label-box">
+                                 <span class="label__subtitle">Cash on delivery</span>
+                                 <span class="label__article">Pay with cash upon delivery.</span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="payment-mt__item">
+                           <input type="radio" class="payment-mt__radio" id="payment-mt__radio-3" required name="payment-mt">
+                           <label for="payment-mt__radio-3" class="label label--rd">Paypol</label>
+                        </div>
+                     </div>
+                  </div>
+                  <button class="check-out__button button">Pay Now</button>
+               </form>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         All rights reserved
+      </footer>
+   </div>
+</body>
+</html>
+
+
+
+
+
+
