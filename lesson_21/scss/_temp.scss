@@ -1,0 +1,40 @@
+@import url(fonts.css);
+@import url(reset.css); 
+/* ============================Загальні стилі======================================= */
+.wrapper {
+   min-height: 100%;
+   overflow: clip;
+   display: flex;
+   flex-direction: column;
+}
+[class*="__container"] {
+   max-width: 1250px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+body {
+   font-family: "Core Sans C", sans-serif;
+}
+.title {
+   color: #3C4242;
+   font-size: 34px;
+   font-weight: 600;
+   letter-spacing: 0.68px;
+   display: flex;
+   align-items: start;
+   gap: 20px;
+}
+.title::before {
+   content: "";
+   flex: 0 0 6px;
+   min-height: 30px;
+   background-color: #8A33FD;
+   border-radius: 10px;
+}
+/* ================================================================================ */
+.page {
+   flex: 1 1 auto;
+}
+/* ================================================================================ */
+
+/* ================================================================================ */
