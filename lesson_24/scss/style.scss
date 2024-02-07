@@ -1,0 +1,72 @@
+@use "sass:math";
+// Обнулення стилів
+@import "_reset.scss";
+
+// Підключення шрифтів
+@import "_fonts.scss";
+
+// Підключення функції
+@import "_functions.scss";
+
+
+//========= Змінні, міксіни, шаблони ==================================================================
+
+//---------кольори----------------------------
+//$main-color:#40DDB6;
+//$second-color: #6B78E5;
+//$title-color: #37393F;
+//$text-color: #7D7D7D;
+//$background-color: #F4F4F4;
+//$burger-color:#e6d3fe;
+//$hover-color:#e6d3fe;
+//----------міксін-------------------------------------
+//@mixin title ($title-color, $fz: toRem(40), $fw: 700, $lh: lnh(31.75)) {
+//   font-family:"Poppins", sans-serif;
+//   color: $title-color;
+//   font-size: $fz;
+//   font-weight: $fw;
+//   line-height: $lh;
+//}
+//--------------шаблон ----------------------------------
+
+
+//========= Загальні стилі ==================================================================
+.wrapper {
+   min-height: 100%;
+   overflow: clip;
+   display: flex;
+   flex-direction: column;
+}
+[class*="__container"] {
+   max-width: toRem(1250);
+   padding: 0 toRem(15);
+   margin: 0 auto;
+}
+body {
+   font-family: "Inter", sans-serif;
+   font-size: toRem(18);
+}
+//========= ШАПКА ==================================================================
+.page {
+   flex: 1 1 auto;
+}
+
+.page {
+	padding: 50px;
+}
+.page span {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 30px;
+	animation: text 3s ease;
+	display: inline-block;
+}
+@keyframes text {
+	0% {
+		opacity: 0;
+		transform: translate(0px, 10%) rotate(10deg);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0px, 0) rotate(0deg);
+	}
+}
