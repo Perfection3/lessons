@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  line-height: 1;
+  height: 100%;
+}
+
+/* FORM */
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  color: inherit;
+  background-color: transparent;
+}
+
+button,
+select,
+option {
+  cursor: pointer;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* ========================================================= */
+.wrapper {
+  min-height: 100%;
+  overflow: clip;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+[class*=__container] {
+  max-width: 78.125rem;
+  padding: 0 0.9375rem;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  opacity: 0;
+}
+body.loaded {
+  opacity: 1;
+}
+
+.page {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 3.125rem;
+}
+.page__button {
+  font-size: 1.5rem;
+  padding: 0.625rem;
+  background-color: #40DDB6;
+  display: block;
+  margin: 0 auto;
+}
+.page__item {
+  font-size: 4rem;
+  color: red;
+  font-weight: 700;
+  text-decoration: underline;
+  padding: 0.625rem;
+  text-align: center;
+}
+
+.header {
+  min-height: 3.125rem;
+}
+
+.block__item {
+  color: red;
+  font-size: 2.25rem;
+}
+
+.link {
+  color: blue;
+  font-size: 45px;
+}
+
+.button {
+  font-size: 60px;
+  padding: 20px;
+  color: blue;
+  background-color: yellow;
+  margin: 0 auto;
+  display: block;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.footer.footer--grey {
+  background-color: grey;
+}
+
+.item {
+  display: inline-block;
+  padding: 0.625rem;
+  border: 1px solid green;
+  font-size: 2rem;
+  color: green;
+  font-weight: 700;
+  text-align: center;
+  background-color: #40DDB6;
+}
+
+.footer--grey {
+  background--grey: grey;
+}

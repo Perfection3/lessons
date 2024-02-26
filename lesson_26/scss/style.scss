@@ -1,0 +1,116 @@
+@use "sass:math";
+// Обнулення стилів
+@import "_reset.scss";
+
+// Підключення шрифтів
+@import "_fonts.scss";
+
+// Підключення функції
+@import "_functions.scss";
+
+
+//========= Змінні, міксіни, шаблони ==================================================================
+
+//---------кольори----------------------------
+//$main-color:#40DDB6;
+//$second-color: #6B78E5;
+//$title-color: #37393F;
+//$text-color: #7D7D7D;
+//$background-color: #F4F4F4;
+//$burger-color:#e6d3fe;
+//$hover-color:#e6d3fe;
+//----------міксін-------------------------------------
+//@mixin title ($title-color, $fz: toRem(40), $fw: 700, $lh: lnh(31.75)) {
+//   font-family:"Poppins", sans-serif;
+//   color: $title-color;
+//   font-size: $fz;
+//   font-weight: $fw;
+//   line-height: $lh;
+//}
+//--------------шаблон ----------------------------------
+
+
+//========= Загальні стилі ==================================================================
+.wrapper {
+   min-height: 100%;
+   overflow: clip;
+   display: flex;
+   flex-direction: column;
+}
+[class*="__container"] {
+   max-width: toRem(1250);
+   padding: 0 toRem(15);
+   margin: 0 auto;
+}
+body {
+   font-family: "Inter", sans-serif;
+   font-size: toRem(18);
+   opacity: 0;
+   &.loaded {
+      opacity: 1;
+   }
+}
+//========= ШАПКА ==================================================================
+.page {
+   flex: 1 1 auto;
+   padding: toRem(50);
+   &__button {
+      font-size: toRem(24);
+      padding: toRem(10);
+      background-color: #40DDB6;
+      display: block;
+      margin: 0 auto;
+   }
+   &__item {
+      font-size: toRem(64);
+      color: red;
+      font-weight: 700;
+      text-decoration: underline;
+      padding: toRem(10);
+      text-align: center;
+   }
+}
+.header {
+   min-height: toRem(50);
+}
+.block {
+   // .block__item
+   &__item {
+      color: red;
+      font-size: toRem(36);
+   }
+}
+.link {
+   color: blue;
+   font-size: 45px;
+}
+.button {
+   font-size: 60px;
+   padding: 20px;
+   color: blue;
+   background-color: yellow;
+   margin: 0 auto;
+   display: block;
+}
+.footer {
+   display: flex;
+   justify-content: space-evenly;
+   &.footer--grey {
+      background-color: grey;
+   }
+}
+.item {
+   display: inline-block;
+   padding: toRem(10);
+   border: 1px solid green;
+   font-size: toRem(32);
+   color: green;
+   font-weight: 700;
+   text-align: center;
+   background-color: #40DDB6;
+
+}
+.footer--grey {
+   background--grey: grey;
+}
+
